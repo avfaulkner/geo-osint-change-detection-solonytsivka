@@ -1,6 +1,8 @@
-# Arms Smuggling GEO-OSINT: Change Detection Case Study (Solonytsivka, Ukraine)
+# GEOINT Change Detection Case Study – Solonytsivka, Ukraine (May–June 2022)
 
-This repository demonstrates a complete, reproducible GEOINT/OSINT workflow that detects and analyzes potential logistical or arms-related ground activity using Sentinel-1 SAR and Sentinel-2 optical imagery.
+## Analyzing Sentinel-1 SAR and Sentinel-2 Optical Imagery for Surface Activity Patterns
+
+This repository demonstrates a complete, reproducible GEOINT/OSINT workflow that detects and analyzes potential logistical ground activity using Sentinel-1 SAR and Sentinel-2 optical imagery.
 It focuses on the Ukraine–Russia border region (Solonytsivka, near Kharkiv) between May 2022 and June 2022.
 
 The project blends radar-based change detection, optical visual analysis, and automated reporting to create an open-source intelligence case study that mirrors professional GEOINT production standards.
@@ -125,6 +127,8 @@ pip install -r requirements.txt
 | Operating System | WSL2 on Windows 10 / 11 or Ubuntu 20.04+ | Both tested successfully. |
 | Memory | ≥ 8 GB RAM | Recommended for handling multiple 10-meter Sentinel imagery layers. |
 
+*The Jupyter scripts in this project were run in **VSCode with the Jupyter extension** installed.*
+
 ---
 
 ## Reproducing the Analysis
@@ -167,7 +171,6 @@ To ensure your outputs match the baseline results, confirm the following:
 - Bounding boxes in annotated images align precisely with visual change areas.  
 - The final PDF report (`solonytsivka_geoint_report.pdf`) includes all sections and imagery without missing assets.  
 - The Leaflet viewer displays overlays centered at `49.985 N, 36.168 E` with visible annotations.
-
 
 ---
 
