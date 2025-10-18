@@ -7,6 +7,9 @@ It focuses on the Ukraine–Russia border region (Solonytsivka, near Kharkiv) be
 
 The project blends radar-based change detection, optical visual analysis, and automated reporting to create an open-source intelligence case study that mirrors professional GEOINT production standards.
 
+[See the full walkthrough here](https://medium.com/@avfaulkner/geoint-change-detection-case-study-solonytsivka-ukraine-may-june-2022-walkthrough-1876bb44d933)
+
+
 ## Objective
 
 - Detect physical surface changes from multi-temporal Sentinel-1 and Sentinel-2 imagery..
