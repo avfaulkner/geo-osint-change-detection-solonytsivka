@@ -185,17 +185,7 @@ To ensure your outputs match the baseline results, confirm the following:
 
 ---
 
-## Interactive Map Viewer - In Progress
 
-Accessible at
-🔗 <https://avfaulkner.github.io/arms-smuggling-geo-osint/>
-
-Features:
-
-- Base map: OpenStreetMap
-- Overlays: True Color, False Color, and SAR change maps
-- Layer toggle and transparency control
-- (Upcoming) tooltips with bounding box metadata
 
 ## Disclaimer
 
